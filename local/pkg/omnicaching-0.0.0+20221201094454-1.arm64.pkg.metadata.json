@@ -1,0 +1,42 @@
+{
+  "basename": "omnicaching-0.0.0+20221201094454-1.arm64.pkg",
+  "md5": "0a04a7cc898e6e9f0d2078eb453c65ff",
+  "sha1": "7f1610483005078fe35045502dd2e8217f486f9b",
+  "sha256": "124001568897606b060fa17cb7439f2ac3b2ef6280a6ee38c761b30c6caf88ce",
+  "sha512": "762164939b05209ba715221e9792f95f4c819bf5f6cfab1d426294a79ce5f215c995218173565d3cd023c74a24b71823c322eb69abd920f00a3c3ec8b2327b85",
+  "platform": "mac_os_x",
+  "platform_version": "12",
+  "arch": "arm64",
+  "name": "omnicaching",
+  "friendly_name": "Omnicaching",
+  "homepage": "https://CHANGE-ME.com",
+  "version": "0.0.0+20221201094454",
+  "iteration": 1,
+  "license": "Unspecified",
+  "version_manifest": {
+    "manifest_format": 2,
+    "software": {
+      "preparation": {
+        "locked_version": "1.0.0",
+        "locked_source": null,
+        "source_type": "project_local",
+        "described_version": "1.0.0",
+        "license": "project_license"
+      },
+      "omnicaching-zlib": {
+        "locked_version": "1.2.6",
+        "locked_source": {
+          "md5": "618e944d7c7cd6521551e30b32322f4a",
+          "url": "http://downloads.sourceforge.net/project/libpng/zlib/1.2.6/zlib-1.2.6.tar.gz"
+        },
+        "source_type": "url",
+        "described_version": "1.2.6",
+        "license": "Unspecified"
+      }
+    },
+    "build_version": "0.0.0+20221201094454",
+    "build_git_revision": "unknown",
+    "license": "Unspecified"
+  },
+  "license_content": "omnicaching 0.0.0+20221201094454 license: \"Unspecified\"\n\n\n\n\n\nThis product bundles omnicaching-zlib 1.2.6,\nwhich is available under a \"Unspecified\" License.\n\n\n\n\n"
+}

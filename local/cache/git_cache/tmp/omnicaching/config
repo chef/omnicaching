@@ -1,0 +1,11 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	worktree = /private/tmp/omnicaching
+	ignorecase = true
+	precomposeunicode = true
+[user]
+	name = Omnibus Git Cache
+	email = omnibus@localhost

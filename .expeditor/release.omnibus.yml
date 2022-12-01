@@ -1,0 +1,7 @@
+---
+project-name: omnicaching
+config: omnibus.rb
+test-path: omnibus-test.sh
+builder-to-testers-map:
+  mac_os_x-11-arm64:
+    - mac_os_x-11-arm64
