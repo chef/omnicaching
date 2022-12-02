@@ -10,8 +10,8 @@ homepage "https://chef.io"
 
 # Defaults to C:/omnicaching on Windows
 # and /opt/omnicaching on all other platforms
-install_dir "#{default_root}/#{name}"
-# install_dir "/tmp/#{name}"
+# install_dir "#{default_root}/#{name}"
+install_dir "/tmp/#{name}"
 
 build_version Omnibus::BuildVersion.semver
 build_iteration 1
