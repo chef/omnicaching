@@ -1,7 +1,10 @@
 source 'https://rubygems.org'
 
 # Install omnibus
-gem 'omnibus', '~> 9.0'
+# gem 'omnibus', '~> 9.0'
+# gem 'omnibus', path: '../omnibus'
+gem "omnibus", git: "https://github.com/chef/omnibus", branch: "omnicaching"
+
 
 # Use Chef's software definitions. It is recommended that you write your own
 # software definitions, but you can clone/fork Chef's to get you started.
@@ -19,3 +22,7 @@ group :development do
   gem 'test-kitchen'
   gem 'kitchen-vagrant'
 end
+
+gem "pry"
+gem "pry-byebug"
+gem "pry-stack_explorer"
